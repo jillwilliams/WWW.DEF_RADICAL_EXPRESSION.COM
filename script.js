@@ -78,7 +78,6 @@ document.getElementById("demo8").innerHTML = myProblem8( );
 
 // BUTTON: REVEAL ANSWERS IMAGE
 const myImage = ( ) => {
-
     return <img src="answers.png" alt="answers" />;
 }
 const seeMore = ( ) => {

@@ -25,7 +25,7 @@ body {
 }
 /* IMAGE:    MULTIPLICATION TABLE */
 #multiplicationTable {
-    width: 40%;
+    width: 30%;
     height: auto;
     border: 2px black solid;
 }
@@ -35,7 +35,7 @@ body {
 }
 /* IMAGE:  MULTIPLICATION WITH PERFECT SQUARES HIGHLIGHTED IN RED */
 #perfectSquareTable {
-    width: 45%;
+    width: 35%;
     height: auto;
     margin-right: 10px;
     margin-left: 0px;
@@ -63,27 +63,27 @@ body {
 #areaCalc1 {
     width: 20%;
     height: auto;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 35%;
 
 }
 #areaCalc2 {
     width: 20%;
     height: auto;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 35%;
 }
 #areaCalc3 {
     width: 20%;
     height: auto;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 35%;
 }
 #areaCalc4 {
     width: 20%;
     height: auto;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 35%;
 }
 
 /* TEXT INPUT:  USER EXAMPLE ANSWERS INPUT BOXES */
@@ -141,10 +141,10 @@ body {
 }
 /* SUBMIT BUTTONS FOR PROBLEMS 4-8 */
 #myBtn1 {
-    width: 20%;
+    width: 10%;
     height: 80px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 45%;
     margin-top: 25px;
     font-size: 1.5rem;
     color: black;
@@ -153,10 +153,10 @@ body {
     border: 1px black dotted;
 }
 #myBtn2 {
-    width: 20%;
+    width: 10%;
     height: 80px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 45%;
     margin-top: 25px;
     font-size: 1.5rem;
     color: black;
@@ -165,22 +165,22 @@ body {
     border: 1px black dotted;
 }
 #myBtn3 {
-    width: 20%;
+    width: 10%;
     height: 80px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 45%;
     margin-top: 25px;
     font-size: 1.5rem;
     color: black;
     font-family: 'Amatic SC', cursive;
     background-color: #FFCCFF;
-    border: 1px black dotted;%;
+    border: 1px black dotted;
 }
 #myBtn4 {
-    width: 20%;
+    width: 10%;
     height: 80px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 45%;
     margin-top: 25px;
     font-size: 1.5rem;
     color: black;
