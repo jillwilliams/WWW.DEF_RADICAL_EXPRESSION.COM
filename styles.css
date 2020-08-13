@@ -1,37 +1,33 @@
 body {
-    background-color: linear-gradient(#99FF99, #006600);
+    background-image: linear-gradient(skyblue, navy);
     color: black;
+    margin: 25px 15px 45px 15px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    letter-spacing: 3px;
 }
 /* TEXT:   TITLE:  CALCULATINGS INVOLVING SQUARE ROOTS */
-#h1 {
+h1 {
     font-size: 2rem;
-    color: blue;
-    font-family: 'Amatic SC', cursive;
-    letter-spacing: 2px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
 }
 /* TEXT:    PARAGRAPH 1  INTRO AND MAIN FORMATTING  */
-.para1 {
-    font-size: 1.5rem;
+#para1 {
+    font-size: 2rem;
     color: black;
-    font-family:  'Bubblegum Sans', cursive;
     text-align: left;
     margin-left: 15px;
     margin-right: 15px;
-    padding: 5px;
-    letter-spacing: 2px;
 }
 /* IMAGE:    MULTIPLICATION TABLE */
 #multiplicationTable {
     width: 30%;
     height: auto;
     border: 2px black solid;
-}
-#wrapper {
-    display: flex;
-    justify-content: flex-start;
 }
 /* IMAGE:  MULTIPLICATION WITH PERFECT SQUARES HIGHLIGHTED IN RED */
 #perfectSquareTable {
@@ -48,343 +44,97 @@ body {
     margin-right: 35%;
 }
 /* TEXT:  "AREA OF A SQUARE FORMULA" */
-.para2 {
-    font-size: 1.5rem;
-    color: #009999;
-    text-shadow: 2px 2px 3px black;
-    font-family:  'Bubblegum Sans', cursive;
-    text-align: center;
+#para2 {
+    font-size: 2rem;
+    color: lightgreen;
+    text-align: left;
     margin-left: 15px;
     margin-right: 15px;
-    padding: 5px 5px;
-    letter-spacing: 2px;
+    font-family: 'Indie Flower', cursive;
 }
 /* IMAGE:    EXAMPLE OF AREA PROBLEMS FOR STUDENTS TO TRY */
-#areaCalc1 {
+#areaCalc1, #areaCalc2, #areaCalc3, #areaCalc4 {
     width: 20%;
     height: auto;
-    margin-left: 45%;
-    margin-right: 35%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
-#areaCalc2 {
-    width: 20%;
-    height: auto;
-    margin-left: 45%;
-    margin-right: 35%;
-}
-#areaCalc3 {
-    width: 20%;
-    height: auto;
-    margin-left: 45%;
-    margin-right: 35%;
-}
-#areaCalc4 {
-    width: 20%;
-    height: auto;
-    margin-left: 45%;
-    margin-right: 35%;
-}
-
 /* TEXT INPUT:  USER EXAMPLE ANSWERS INPUT BOXES */
-#input1 {
+#input1, #input2, #input3, #input4 {
     width: 10%;
-    height: 60px;
+    height: auto;
     margin-right: 45%;
     margin-left: 45%;
+    margin-bottom: 15px;
+    margin-top: 15px;
     font-size: 1.5rem;
     color: black;
     font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-    padding: 15px;
-    text-align: center;
-}
-#input2 {
-    width: 10%;
-    height: 60px;
-    margin-right: 45%;
-    margin-left: 45%;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-    padding: 15px;
-    text-align: center;
-}
-#input3 {
-    width: 10%;
-    height: 60px;
-    margin-right: 45%;
-    margin-left: 45%;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-    padding: 15px;
-    text-align: center;
-}
-#input4 {
-    width: 10%;
-    height: 60px;
-    margin-right: 45%;
-    margin-left: 45%;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
+    background-color: lightgreen;
+    border: 2px black solid;
     padding: 15px;
     text-align: center;
 }
 /* SUBMIT BUTTONS FOR PROBLEMS 4-8 */
-#myBtn1 {
-    width: 10%;
-    height: 80px;
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-top: 25px;
+#myBtn1, #myBtn2, #myBtn3, #myBtn4 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15px;
     font-size: 1.5rem;
+    font-family: 'Shadows Into Light', cursive;
     color: black;
-    font-family: 'Amatic SC', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-}
-#myBtn2 {
-    width: 10%;
-    height: 80px;
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-top: 25px;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Amatic SC', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-}
-#myBtn3 {
-    width: 10%;
-    height: 80px;
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-top: 25px;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Amatic SC', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-}
-#myBtn4 {
-    width: 10%;
-    height: 80px;
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-top: 25px;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Amatic SC', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
+    background-color: lightgreen;
+    border: 2px black solid;
+    padding: 15px;
 }
 /* TEXT OUTPUT: ANSWERS TO PROBLEMS 1-4 */
-#demo1 {
+#demo1, #demo2, #demo3, #demo4 {
     width: 10%;
-    height: 60px;
+    height: 50px;
     margin-right: 45%;
     margin-left: 45%;
     font-size: 1.5rem;
     color: black;
     font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
+    background-color: lightgreen;
+    border: 2px black solid;
     padding: 15px;
     text-align: center;
-}
-#demo2 {
-    width: 10%;
-    height: 60px;
-    margin-right: 45%;
-    margin-left: 45%;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-    padding: 15px;
-    text-align: center;
-}
-#demo3 {
-    width: 10%;
-    height: 60px;
-    margin-right: 45%;
-    margin-left: 45%;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-    padding: 15px;
-    text-align: center;
-}
-#demo4 {
-    width: 10%;
-    height: 60px;
-    margin-right: 45%;
-    margin-left: 45%;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: #FFCCFF;
-    border: 1px black dotted;
-    padding: 15px;
-    text-align: center;
-}
-#wrapper {
-    display: flex;
-    justify-content: flex-start;
 }
 /* IMAGE:    GIVEN THE AREA OF A SQUARE, FIND THE SQUARE ROOT */
-#practice1 {
+#practice1, #practice2, #practice3, #practice4 {
     width: 10%;
     height: auto;
-    margin-left: 12%;
-    margin-right: 5%; 
-}
-#practice2 {
-    width: 10%;
-    height: auto;
-    margin-left: 7%;
-    margin-right: 7%; 
-}
-#practice3 {
-    width: 10%;
-    height: auto;
-    margin-left: 6%;
-    margin-right: 5%; 
-}
-#practice4 {
-    width: 10%;
-    height: auto;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin: 15px 45% 15px 45%;
 }
 /* BUTTON:  CHECK THE AREA TO SIDE LENGTHS PRACTICE PROBLEMS */
-#btnSquareRoot {
-    width: 160px;
+#btnSquareRoot, #btnSquareRoot2, #btnSquareRoot3, #btnSquareRoot4 {
+    width: 20%;
     height: 69px;
     font-size: 1.5rem;
     color: black;
     font-family: 'Indie Flower', cursive;
     background-color: #99FFCC;
     border: 2px black solid;
-    padding: 20px;
-    text-align: center;
-    margin-left: 11%;
-    margin-right: auto;
-}
-#btnSquareRoot2 {
-    width: 160px;
-    height: 69px;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Indie Flower', cursive;
-    background-color: #99FFCC;
-    border: 2px black solid;
-    padding: 20px;
-    text-align: center;
-    margin-left: 11.2%;
-    margin-right: auto;
-}
-#btnSquareRoot3 {
-    width: 163px;
-    height: 69px;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Indie Flower', cursive;
-    background-color: #99FFCC;
-    border: 2px black solid;
-    padding: 20px;
-    text-align: center;
-    margin-left: 11.3%;
-    margin-right: auto;
-}
-#btnSquareRoot4 {
-    width: 163px;
-    height: 69px;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Indie Flower', cursive;
-    background-color: #99FFCC;
-    border: 2px black solid;
-    padding: 20px;
-    text-align: center;
-    margin-left: 11.2%;
-    margin-right: auto;
-}
-#demo5 {
-    width: 55px;
-    height: 37px;
-    font-size: 1.3rem;
-    color: blue;
-    text-align: center;
-    background-color: #99FFCC;
-    border: 2px black solid;
-    margin-left: 13%;
     padding: 15px;
-    display: inline-block;
-    font-family: 'Shadows Into Light', cursive;
     text-align: center;
+    margin: 15px 40% 15px 40%;
 }
-#demo6 {
-    width: 55px;
+#demo5, #demo6, #demo7, #demo8, #demo9 {
+    width: 10%;
     height: 40px;
     font-size: 1.3rem;
-    color: blue;
+    color: black;
+    text-align: center;
     background-color: #99FFCC;
     border: 2px black solid;
-    margin-left: 15.5%;
+    margin: 0px 45% 15px 45%;
     padding: 15px;
-    display: inline-block;
-    font-family: 'Shadows Into Light', cursive;
-    text-align: center;
-}
-#demo7 {
-    width: 55px;
-    height: 40px;
-    font-size: 1.3rem;
-    color: blue;
-    background-color: #99FFCC;
-    border: 2px black solid;
-    margin-left: 16%;
-    padding: 15px;
-    display: inline-block;
-    font-family: 'Shadows Into Light', cursive;
-    text-align: center;
-}
-#demo8, #demo9 {
-    width: 55px;
-    height: 40px;
-    font-size: 1.3rem;
-    color: blue;
-    background-color: #99FFCC;
-    border: 2px black solid;
-    margin-left: 16%;
-    padding: 15px;
-    display: inline-block;
-    font-family: 'Shadows Into Light', cursive;
-    text-align: center;
-}
-/* DIV: BOX FOR EXAMPLE PROBLEMS */
-#div1 {
-    width: 60%;
-    height: 40%;
-    font-size: 1.5px;
-    border: 2px black solid;
-    background-color: aquamarine;
-    margin-left: 20%;
-    margin-right: 20%;
     display: inline-block;
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
@@ -393,8 +143,8 @@ body {
 #practiceSection {
     width: 80%;
     height: 40%;
-    color: aquamarine;
-    font-size: 1.8rem;
+    color: lightgreen;
+    font-size: 2rem;
     font-family: 'Indie Flower', cursive;
     table-layout: auto;
     text-align: center;
@@ -416,11 +166,11 @@ body {
 #solutionButton {
     width: 20%;
     height: 10%;
-    color: aquamarine;
-    font-size: 1.8rem;
+    color: lightgreen;
+    font-size: 2rem;
     font-family: 'Indie Flower', cursive;
     border: 2px black solid;
-    outline: 2px aquamarine solid;
+    outline: 2px lightgreen solid;
     margin-left: 40%;
     margin-right: 40%;
     background-color: slategray;
@@ -435,72 +185,58 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 15px;
+    font-size: 2rem;
     display: inline-block;
     align-content: center;
 }
-/* IMAGE OUTPUT:    ANSWERS.PNG */
-#seemore {
-    width: 80%;
-    height: auto;
-    
-}
+/* Button:    
 /* ANSWERS TO FINAL PRACTICE SECTION */
-#answersImage {
-    width: 80%;
-    height: 40%;
+#p2 {
+    width: 40%;
+    height: auto;
+    color: lightgreen;
+    text-align: center;
     padding: 20px;
-    margin-left: 20%;
     border: 1px black solid;
-    margin-top: 15px;
+    margin: 25px 30% 15px 30%;
     background-color: lightslategray;
-    outline: 2px aquamarine double;
+    outline: 2px lightgreen double;
 }
-/* BUTTON:    CHECK YOUR ANSWERS */
+/* 2nd to last BUTTON:    CHECK YOUR ANSWERS */
 #solutionButton {
     width: 30%;
     height: 20%;
-    color: aquamarine;
+    color: lightgreen;
     font-size: 1.8rem;
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     margin-left: 35%;
     margin-right: 35%;
-    margin-top: 15px;
+    margin-top: 25px;
     background-color: lightslategray;
     border: 2px black solid;
     outline: 2px aquamarine double;
 }
-
 /* BUTTON:    CLOSE */
-#seeLess {
-    width: 30%;
+#endBtn {
+    width: 20%;
     height: 20%;
-    color: aquamarine;
+    color: lightgreen;
     font-size: 1.8rem;
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    padding: 20px;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 40%;
+    margin-right: 40%;
     margin-top: 15px;
     background-color: lightslategray;
     border: 2px black solid;
-    outline: 2px aquamarine double;
+    outline: 2px lightgreen double;
 }
-/* OUTPUT IMAGE: SOLUTIONS TO PROBLEMS */
-/* #seemore {
-width: 90%;
-height: auto;
-border: 2px black solid;
-font-family: "Indie Flower", cursive;
-padding: 20px;
-text-align: justify;
-align-content: center;
-}  */
 footer {
     font-size: 1rem;
-    color: black;
+    color: lightgreen;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     margin-top: 20px;

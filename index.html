@@ -1,19 +1,32 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light|Bubblegum+Sans|Amatic+SC|
-    Caveat|Kalam|Satisfy" rel="stylesheet">
-    <title>Radical Expressions</title>
+    <meta charset="utf-8" 
+    Unicode="U+00A9, UTF-8: C2 A9" 
+    Unicode="U+2197 U+FE0E UTF-8: E2 86 97 EF B8 8E" 
+    Unicode="U+2198 U+FE0E, UTF-8: E2 86 98 EF B8 8E" 
+    Unicode="U+220F, UTF-8: E2 88 8F" 
+    Unicode="U+2606, UTF-8: E2 98 86"         
+    Unicode="U+00BA, UTF-8: C2 BA"
+    Unicode="U+299F, UTF-8: E2 A6 9F"
+    Unicode="U+2264, UTF-8: E2 89 A4"
+    Unicode="U+2265, UTF-8: E2 89 A5"
+    Unicode="U+003C, UTF-8: 3C"
+    Unicode="U+003E, UTF-8: 3E"
+    Unicode="U+25CB, UTF-8: E2 97 8B"
+    Unicode="U+25CF, UTF-8: E2 97 8F">
+    <title>Square Roots</title>
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light|Fresca" rel="stylesheet">
     <link rel="stylesheet" HREF="./styles.css">
+    <meta name="description" content="Square Root">
+    <meta name="keywords" content="simplify, square roots">
+    <meta name="author" content="JK Williams">
 </head>
 <body>
-    <div id="h1">
+    <h1>
         Calculations Involving Square Roots
-    </div>
-    <div>
-        <p class="para1">
+    </h1>
+        <p id="para1">
             Before we begin working with square roots and adding, subtracting, and multiplying them, I think it is important to do a brief recall of the meaning, vocabulary, and basic information regarding square roots and where they come from.
         <br><br>
             In order for us to do that, we can quickly review the topics:
@@ -21,14 +34,12 @@
             Where do they come from?
             How do I work with them in calculations?
         </p>
-    </div>
-    <div>
         <p>
             <div id="wrapper">
                 <img src="images/mult_table1.png" alt="mult. table"
                 id="multiplicationTable" />
-                    <p class="para1">
-                        In the multiplication table, notice that when the same two numbers get multiplied, <br> the answers to each one forms a diagonal line from the top-left corner to the bottom right corner. <br>
+                    <p id="para1">
+                        In the multiplication table, notice that when the same two numbers get multiplied together, the answers to each one forms a diagonal line from the top-left corner to the bottom right corner. <br>
                         The second image shows the "Perfect Square" values highlighted in red.
                     </p>
                     <img src="images/mult_table_3.png"
@@ -36,13 +47,10 @@
                     id="perfectSquareTable" />
             </div>
         </p>
-    </div>
-    <div>
-        <p class="para1">
+        <p id="para1">
             These highlighted values are called "Perfect Squares" and have a literal connection to Geometry and finding the Area of a Square. <br>
             Understanding this connection is extremely important in making square root operations easy for you.
         </p>
-    </div>
     <div id="perfectSquares">
         <p>
             <img src="images/perfectSquare.png"
@@ -50,17 +58,18 @@
             id="squareImage" />
         </p>
     </div>
-    <div>
-        <p class="para1">
-            Given each square below, calculate its area. Then, type it into  the boxes for each problem to check your answer.
-        </p>
+    <p id="para1">
+        Given each square below, calculate its area. Then, type it into  the boxes for each problem to check your answer.
+    </p>
         <hr>
-        <p class="para1">
-            <img src="./images/areaCalc1.png" alt="calc 1" id="areaCalc1" /><br>
-            <input type="text" id="input1"><br><br>
-            <button type="submit" onClick="myCalc1( )" id="myBtn1">SUBMIT</button><br>
-            <p id="demo1"></p><br>
+        <p id="para1">
+            Example 1:
+            <img src="images/areaCalc1.png" alt="calc 1" id="areaCalc1" />
+            <input type="text" id="input1">
+            <button type="submit" onclick="myCalc1( )" id="myBtn1">SUBMIT</button>
+            <p id="demo1"></p>
             <hr>
+            Example2
             <img src="./images/areaCalc2.png" alt="calc 2"
             id="areaCalc2" />
             <input type="text" id="input2">
@@ -68,6 +77,7 @@
             id="myBtn2">SUBMIT</button>
             <p id="demo2"></p>
             <hr>
+            Example3
             <img src="./images/areaCalc3.png" alt="calc 3"
             id="areaCalc3" />
             <input type="text" id="input3">
@@ -75,6 +85,7 @@
             id="myBtn3">SUBMIT</button>
             <p id="demo3"></p>
             <hr>
+            Example4
             <img src="./images/areaCalc4.png" alt="calc 4"
             id="areaCalc4" />
             <input type="text" id="input4">
@@ -83,12 +94,10 @@
             <p id="demo4"></p>
         </p>
         <hr>
-    </div>
-    <div>
-        <p class="para1">
+        <p id="para1">
             Hopefully the above section was easy for you.  If not, just keep practing finding the area of different squares and you will have it memorized in no time!
         </p>
-        <p class="para1">
+        <p id="para1">
             Now, let's talk about the definition of what a "Square Root" is.
             <br>
             When you were finding the area of each square, you were multiplying the same number by itself twice. This is called "Squaring" a number.
@@ -97,54 +106,56 @@
             <br><br>
             So a "Square Root" is a mathematical symbol that asks you to reverse the process we just did when finding the area.
         </p>
-    </div>
-    <div>
-        <p class="para1">
+        <p id="para1">
             Looking at each square, the Area of the Square is given. Use your multiplication tables (above) or mental math to determine the side lengths of each square.  
         <br>
             Then click on the Answer button to see the answer to each problem.
-        </p>
-    </div>
-    <div id="wrapper">
+        </p><hr>
         <p>
             <img src="./images/practice1.png"
             alt="area1"
             id="practice1" />
+            <button type="submit" 
+            onclick="squareRoot( )" 
+            id="btnSquareRoot">
+            Answer
+            </button>
+            <p id="demo5"></p><hr>
+        </p>
+        <p>
             <img src="./images/practice2.png"
             alt="area2"
             id="practice2" />
+            <button type="submit" 
+            onclick="squareRoot2( )" 
+            id="btnSquareRoot2">
+            Answer
+            </button>
+            <p id="demo6"></p><hr>
+        </p>
+        <p>
             <img src="./images/practice3.png"
             alt="area3"
             id="practice3" />
+            <button type="submit" 
+            onclick="squareRoot3( )" 
+            id="btnSquareRoot3">
+            Answer
+            </button>
+            <p id="demo7"></p><hr>
+        </p>
+        <p>
             <img src="./images/practice4.png"
             alt="area4"
             id="practice4" />
+            <button type="submit" 
+            onclick="squareRoot4( )" 
+            id="btnSquareRoot4">
+            Answer
+            </button>
+            <p id="demo8"></p><hr>
         </p>
-    </div>
-    <div>
-        <button type="submit" 
-            onClick="squareRoot( )" id="btnSquareRoot">
-            Answer
-        </button>
-        <button type="submit" 
-            onClick="squareRoot2( )" id="btnSquareRoot2">
-            Answer
-        </button>
-        <button type="submit" 
-            onClick="squareRoot3( )" id="btnSquareRoot3">
-            Answer
-        </button>
-        <button type="submit" 
-            onClick="squareRoot4( )" id="btnSquareRoot4">
-            Answer
-        </button>
-        <p id="demo5"></p>
-        <p id="demo6"></p>
-        <p id="demo7"></p>
-        <p id="demo8"></p>
-    </div>
-    <div>
-        <p class="para1">
+        <p id="para2">
             The process of calculating the side lengths of a square when given its area, is referred to as taking the "Square Root" of the number.
         <br>
             The math symbol for the square root is: 
@@ -155,13 +166,9 @@
         <br>
             The other issue is they typically don't give you a picture of the square. They only give you the square's area and ask you to find the lengths of its sides. Again, called taking the "Square Root" of the value. You can draw squares on your paper to help you visualize what you are calculating.
         </p>  
-    </div>
-
-    <div id="div1">
-        <p class="para1">
+        <p id="para2">
             Calculate the Square Root of the values. Check your answers when done.
         </p>
-    </div>
     <table id="practiceSection">
         <tr>
             <td>√36</td>
@@ -185,25 +192,20 @@
             <td>√225</td>
         </tr>
     </table>
-    <div>
-        <button 
-            style="submit" 
-            id="solutionButton" 
-            onClick="seeMore(  )">
-            CHECK ANSWERS
-        </button>
-        <p id="seemore">
-            <img src="./images/answers.png"
-                alt="answers"
-                id="answersImage" />
-        </p>
-    </div>
+    <button 
+        type="submit" 
+        id="solutionButton" 
+        onclick="seeMore(  )">
+        CHECK ANSWERS
+    </button>
+    <p id="p2"></p>
+    <button type="text" id="endBtn" onclick="seeLess()">CLOSE</button>
     <hr>
     <footer>
-            ©2019 ALL THINGS MATH <br>
+            ©2020 ALL THINGS MATH <br>
             ALL RIGHTS RESERVED
     </footer>
-    <script src="./script.js" type="text/javascript">
+    <script src="script.js" type="text/javascript">
     </script>
 </body>
 </html>

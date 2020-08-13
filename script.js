@@ -1,6 +1,6 @@
 const myProblem1 = ( ) => {
     var answOne = document.getElementById("input1").value;
-        if (answOne == 4) {
+        if (answOne == "4") {
             return "Good Job!";
         } else
             return "Try Again";
@@ -11,7 +11,7 @@ const myCalc1 = ( ) => {
 
 const myProblem2 = ( ) => {
     var answTwo = document.getElementById("input2").value;
-        if (answTwo == 9) {
+        if (answTwo == "9") {
             return "Good Job!";
         } else
             return "Try Again";
@@ -22,7 +22,7 @@ const myCalc2 = ( ) => {
 
 const myProblem3 = ( ) => {
     var answThree = document.getElementById("input3").value;
-        if (answThree == 16) {
+        if (answThree == "16") {
             return "Good Job!";
         } else
             return "Try Again";
@@ -33,7 +33,7 @@ const myCalc3 = ( ) => {
 
 const myProblem4 = ( ) => {
     var answFour = document.getElementById("input4").value;
-        if (answFour == 49) {
+        if (answFour == "49") {
             return "Good Job!";
         } else
             return "Try Again";
@@ -73,20 +73,17 @@ const squareRoot4 = ( ) => {
 document.getElementById("demo8").innerHTML = myProblem8( );
 };
 
-// ****************************************
-// Need to fix this. want it to reveal the answers.png image
-
 // BUTTON: REVEAL ANSWERS IMAGE
 const myImage = ( ) => {
-    return <img src="answers.png" alt="answers" />;
+    return "6, 8, 4 9 10, 1, 2, 11, 3, 5, 0, 13, 9, 20, 15";
 }
 const seeMore = ( ) => {
-    document.getElementById("seemore").innerHTML = myImage( );
+    document.getElementById("p2").innerHTML = myImage( );
 };
 // BUTTON:    CLOSE THE EXTRA INFORMATION
 const myCloseButton = ( ) => {
     return " ";
 }
 const seeLess = ( ) => {
-    document.getElementById("seemore").innerHTML = myCloseButton( );
+    document.getElementById("p2").innerHTML = myCloseButton( );
 };
