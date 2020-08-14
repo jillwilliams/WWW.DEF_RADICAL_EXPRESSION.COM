@@ -234,6 +234,11 @@ h1 {
     border: 2px black solid;
     outline: 2px lightgreen double;
 }
+iframe {
+    outline: 2px blue solid;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 footer {
     font-size: 1rem;
     color: lightgreen;
